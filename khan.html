@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Assignment</h2>
+
+<button onclick="myFunction()">Click For Input</button>
+
+<p id="Sohail"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your Charecter:", "");
+    if (person == "J" || person == "j") {
+        txt = "GoodBye";
+    } else {
+        txt = "Hello ";
+    }
+    document.getElementById("Sohail").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
